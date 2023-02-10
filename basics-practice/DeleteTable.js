@@ -8,7 +8,7 @@ var ddb = new AWS.DynamoDB({
 });
 
 var params = {
-  TableName: 'CUSTOMER_LIST'
+  TableName: 'security_answer'
 };
 
 // Call DynamoDB to delete the specified table

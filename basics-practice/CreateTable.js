@@ -20,22 +20,6 @@ var params = {
       AttributeName: 'created_at',
       AttributeType: 'S'
     },
-    // {
-    //   AttributeName: 'updated_at',
-    //   AttributeType: 'S'
-    // },
-    // {
-    //   AttributeName: 'is_required',
-    //   AttributeType: 'N'
-    // },
-    // {
-    //   AttributeName: 'is_deleted',
-    //   AttributeType: 'N'
-    // },
-    // {
-    //   AttributeName: 'question',
-    //   AttributeType: 'S'
-    // }
   ],
   KeySchema: [
     {
@@ -51,7 +35,7 @@ var params = {
     ReadCapacityUnits: 1,
     WriteCapacityUnits: 1
   },
-  TableName: 'security_question',
+  TableName: 'security_answer',
   StreamSpecification: {
     StreamEnabled: false
   }
